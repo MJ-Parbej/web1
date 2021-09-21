@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: silver;
+    padding: 20px;
+    text-align: center;
+}
+
+.section{
+    background-color: red;
+    margin: 10px;
+    padding: 15px;
+}
+
+.article{
+    background-color: tomato;
+    /* height: 200px; */
+    padding: 100px;
+    margin: 20px 0px;
+    text-align: center;
+}
+/* you have more code if you use height */
+
+/* .article h1{
+    padding: 100px;
+} */
+
+/* ------ */
+
+.details-section{
+    background-color: violet;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+/* One way  */
+/* 
+.details-section .details-section-content{
+} */
+
+.details-section-content{
+    background-color: turquoise;
+    margin: 40px 20px;
+    padding: 100px 0;
+    /* text-align: center; */
+}
+
+.details-section-content{
+    text-align: center;
+}
+
+.div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: linear-gradient(60deg,green,silver);
+    padding: 25px;
+    text-align: center;
+}
+.div-section{
+     background-color: tomato;
+     margin: 10px;
+     padding: 20px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-image: linear-gradient;
+    padding: 10px;
+    text-align: center;
+}
+.footer-section{
+    background-color: tomato;
+    margin: 10px;
+    padding: 20px;
+}
